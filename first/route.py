@@ -9,18 +9,18 @@ import csv
 import os
 
 
-# mydb=mysql.connector.connect(host='localhost',user='root',passwd='1234',database='ridham')
-# mycursor = mydb.cursor(buffered=True)
-
-# mydb2=mysql.connector.connect(host='localhost',user='root',passwd='1234',database='ridham_2')
-# mycursor2 = mydb2.cursor(buffered=True)
-
-
-mydb=mysql.connector.connect(host='remotemysql.com',user='7SfpY1qGtT',passwd='Tv7OfgemPh',database='7SfpY1qGtT')
+mydb=mysql.connector.connect(host='localhost',user='root',passwd='1234',database='ridham')
 mycursor = mydb.cursor(buffered=True)
 
-mydb2=mysql.connector.connect(host='remotemysql.com',user='cVTsksiGpK',passwd='5lxL6XRUOE',database='cVTsksiGpK')
+mydb2=mysql.connector.connect(host='localhost',user='root',passwd='1234',database='ridham_2')
 mycursor2 = mydb2.cursor(buffered=True)
+
+
+# mydb=mysql.connector.connect(host='localhost',user='root',passwd='drivekraft',database='7SfpY1qGtT')
+# mycursor = mydb.cursor(buffered=True)
+
+# mydb2=mysql.connector.connect(host='remotemysql.com',user='cVTsksiGpK',passwd='5lxL6XRUOE',database='cVTsksiGpK')
+# mycursor2 = mydb2.cursor(buffered=True)
 
  
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
